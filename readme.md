@@ -34,3 +34,5 @@ let hasName: boolean = true;
 // si colocamos esto, al hacer ts-node va a explotar
 let hasName: boolean = "true";
 ```
+
+Es muy mala practica definir las variables como **any**, if we do that, TS won't catch the errors
