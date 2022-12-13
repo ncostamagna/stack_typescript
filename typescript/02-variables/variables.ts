@@ -24,6 +24,7 @@ let point: { x: number; y: number } = {
 };
 
 // Function
+// we defined the sintaxis with logNumber: (i: number) => void
 const logNumber: (i: number) => void = (i: number) => {
   console.log(i);
 };
