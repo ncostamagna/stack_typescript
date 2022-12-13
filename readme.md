@@ -1,7 +1,7 @@
-
 Convierte TS a JS: https://www.typescriptlang.org/
 
 # TypeScript
+
 Es javascript con documentacion extra, no proporciona ninguna oprimizacion en el codigo, solo es una ayuda a los desarrolladores. Podemos ver el error antes de ejecutar el codigo
 
 # Install
@@ -21,6 +21,16 @@ ts-node index.ts
 ```
 
 # Extensions
+
 - prettier: code formatter
 
 Habilitar 'Format on save' en visual studio code
+
+# Variables
+
+```ts
+let hasName: boolean = true;
+
+// si colocamos esto, al hacer ts-node va a explotar
+let hasName: boolean = "true";
+```
