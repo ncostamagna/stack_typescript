@@ -40,11 +40,3 @@ Es muy mala practica definir las variables como **any**, if we do that, TS won't
 # Packages
 
 - **concurrently**: Run multiple commands concurrently. Like npm run watch-js & npm run watch-less but better.
-
-# React
-
-create a react project with TS
-
-```sh
-npx create-react-app rrts --template typescript
-```
